@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@color/light_grey"
+    android:background="@color/light_gray"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.SearchView
@@ -38,9 +38,9 @@
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/bg_buton_disabled"
+                    android:background="@drawable/bg_button_disabled"
                     android:text="All"
-                    android:textColor="@color/dark_grey"
+                    android:textColor="@color/dark_gray"
                     android:textSize="18sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -50,9 +50,9 @@
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/bg_buton_disabled"
+                    android:background="@drawable/bg_button_disabled"
                     android:text="Chicken"
-                    android:textColor="@color/dark_grey"
+                    android:textColor="@color/dark_gray"
                     android:textSize="18sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -62,9 +62,9 @@
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/bg_buton_disabled"
+                    android:background="@drawable/bg_button_disabled"
                     android:text="Pizza"
-                    android:textColor="@color/dark_grey"
+                    android:textColor="@color/dark_gray"
                     android:textSize="18sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -74,9 +74,9 @@
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/bg_buton_disabled"
+                    android:background="@drawable/bg_button_disabled"
                     android:text="Kebab"
-                    android:textColor="@color/dark_grey"
+                    android:textColor="@color/dark_gray"
                     android:textSize="18sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
@@ -86,9 +86,9 @@
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginBottom="20dp"
-                    android:background="@drawable/bg_buton_disabled"
+                    android:background="@drawable/bg_button_disabled"
                     android:text="Drinks"
-                    android:textColor="@color/dark_grey"
+                    android:textColor="@color/dark_gray"
                     android:textSize="18sp" />
 
             </LinearLayout>
@@ -99,7 +99,6 @@
         android:id="@+id/txtListTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="All"
         android:textSize="18sp"
         android:textStyle="bold"
         android:layout_margin="20dp"/>
